@@ -1,0 +1,6 @@
+fastapi
+chromadb
+langchain_openai
+os
+openai
+
