@@ -12,7 +12,7 @@ openai.api_key = os.getenv("OPENAI_API_KEY")
 
 client_o = OpenAI()
 # Inicialización de clientes y bases de datos
-BD = "C:/Users/mrojas/Personal/ALTAMIRA/BD"
+BD = "./BD"
 client = chromadb.PersistentClient(path=BD)
 embeddings = OpenAIEmbeddings()
 chroma_directory = BD
